@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		889956461C47769F00EC7C34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 889956451C47769F00EC7C34 /* main.m */; };
+		889956491C47769F00EC7C34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 889956481C47769F00EC7C34 /* AppDelegate.m */; };
+		8899564C1C47769F00EC7C34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8899564B1C47769F00EC7C34 /* ViewController.m */; };
+		8899564F1C47769F00EC7C34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8899564D1C47769F00EC7C34 /* Main.storyboard */; };
+		889956521C47769F00EC7C34 /* MyPingGuo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 889956501C47769F00EC7C34 /* MyPingGuo.xcdatamodeld */; };
+		889956541C47769F00EC7C34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889956531C47769F00EC7C34 /* Assets.xcassets */; };
+		889956571C47769F00EC7C34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889956551C47769F00EC7C34 /* LaunchScreen.storyboard */; };
+		889956621C47769F00EC7C34 /* MyPingGuoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 889956611C47769F00EC7C34 /* MyPingGuoTests.m */; };
+		8899566D1C47769F00EC7C34 /* MyPingGuoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8899566C1C47769F00EC7C34 /* MyPingGuoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8899565E1C47769F00EC7C34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 889956391C47769F00EC7C34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 889956401C47769F00EC7C34;
+			remoteInfo = MyPingGuo;
+		};
+		889956691C47769F00EC7C34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 889956391C47769F00EC7C34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 889956401C47769F00EC7C34;
+			remoteInfo = MyPingGuo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		889956411C47769F00EC7C34 /* MyPingGuo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPingGuo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		889956451C47769F00EC7C34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		889956471C47769F00EC7C34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		889956481C47769F00EC7C34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8899564A1C47769F00EC7C34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8899564B1C47769F00EC7C34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8899564E1C47769F00EC7C34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		889956511C47769F00EC7C34 /* MyPingGuo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyPingGuo.xcdatamodel; sourceTree = "<group>"; };
+		889956531C47769F00EC7C34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		889956561C47769F00EC7C34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		889956581C47769F00EC7C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8899565D1C47769F00EC7C34 /* MyPingGuoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPingGuoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		889956611C47769F00EC7C34 /* MyPingGuoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPingGuoTests.m; sourceTree = "<group>"; };
+		889956631C47769F00EC7C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		889956681C47769F00EC7C34 /* MyPingGuoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPingGuoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8899566C1C47769F00EC7C34 /* MyPingGuoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPingGuoUITests.m; sourceTree = "<group>"; };
+		8899566E1C47769F00EC7C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8899563E1C47769F00EC7C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8899565A1C47769F00EC7C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889956651C47769F00EC7C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		889956381C47769F00EC7C34 = {
+			isa = PBXGroup;
+			children = (
+				889956431C47769F00EC7C34 /* MyPingGuo */,
+				889956601C47769F00EC7C34 /* MyPingGuoTests */,
+				8899566B1C47769F00EC7C34 /* MyPingGuoUITests */,
+				889956421C47769F00EC7C34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		889956421C47769F00EC7C34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				889956411C47769F00EC7C34 /* MyPingGuo.app */,
+				8899565D1C47769F00EC7C34 /* MyPingGuoTests.xctest */,
+				889956681C47769F00EC7C34 /* MyPingGuoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		889956431C47769F00EC7C34 /* MyPingGuo */ = {
+			isa = PBXGroup;
+			children = (
+				889956471C47769F00EC7C34 /* AppDelegate.h */,
+				889956481C47769F00EC7C34 /* AppDelegate.m */,
+				8899564A1C47769F00EC7C34 /* ViewController.h */,
+				8899564B1C47769F00EC7C34 /* ViewController.m */,
+				8899564D1C47769F00EC7C34 /* Main.storyboard */,
+				889956531C47769F00EC7C34 /* Assets.xcassets */,
+				889956551C47769F00EC7C34 /* LaunchScreen.storyboard */,
+				889956581C47769F00EC7C34 /* Info.plist */,
+				889956501C47769F00EC7C34 /* MyPingGuo.xcdatamodeld */,
+				889956441C47769F00EC7C34 /* Supporting Files */,
+			);
+			path = MyPingGuo;
+			sourceTree = "<group>";
+		};
+		889956441C47769F00EC7C34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				889956451C47769F00EC7C34 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		889956601C47769F00EC7C34 /* MyPingGuoTests */ = {
+			isa = PBXGroup;
+			children = (
+				889956611C47769F00EC7C34 /* MyPingGuoTests.m */,
+				889956631C47769F00EC7C34 /* Info.plist */,
+			);
+			path = MyPingGuoTests;
+			sourceTree = "<group>";
+		};
+		8899566B1C47769F00EC7C34 /* MyPingGuoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8899566C1C47769F00EC7C34 /* MyPingGuoUITests.m */,
+				8899566E1C47769F00EC7C34 /* Info.plist */,
+			);
+			path = MyPingGuoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		889956401C47769F00EC7C34 /* MyPingGuo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889956711C47769F00EC7C34 /* Build configuration list for PBXNativeTarget "MyPingGuo" */;
+			buildPhases = (
+				8899563D1C47769F00EC7C34 /* Sources */,
+				8899563E1C47769F00EC7C34 /* Frameworks */,
+				8899563F1C47769F00EC7C34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPingGuo;
+			productName = MyPingGuo;
+			productReference = 889956411C47769F00EC7C34 /* MyPingGuo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8899565C1C47769F00EC7C34 /* MyPingGuoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889956741C47769F00EC7C34 /* Build configuration list for PBXNativeTarget "MyPingGuoTests" */;
+			buildPhases = (
+				889956591C47769F00EC7C34 /* Sources */,
+				8899565A1C47769F00EC7C34 /* Frameworks */,
+				8899565B1C47769F00EC7C34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8899565F1C47769F00EC7C34 /* PBXTargetDependency */,
+			);
+			name = MyPingGuoTests;
+			productName = MyPingGuoTests;
+			productReference = 8899565D1C47769F00EC7C34 /* MyPingGuoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		889956671C47769F00EC7C34 /* MyPingGuoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889956771C47769F00EC7C34 /* Build configuration list for PBXNativeTarget "MyPingGuoUITests" */;
+			buildPhases = (
+				889956641C47769F00EC7C34 /* Sources */,
+				889956651C47769F00EC7C34 /* Frameworks */,
+				889956661C47769F00EC7C34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8899566A1C47769F00EC7C34 /* PBXTargetDependency */,
+			);
+			name = MyPingGuoUITests;
+			productName = MyPingGuoUITests;
+			productReference = 889956681C47769F00EC7C34 /* MyPingGuoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		889956391C47769F00EC7C34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Jm;
+				TargetAttributes = {
+					889956401C47769F00EC7C34 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8899565C1C47769F00EC7C34 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 889956401C47769F00EC7C34;
+					};
+					889956671C47769F00EC7C34 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 889956401C47769F00EC7C34;
+					};
+				};
+			};
+			buildConfigurationList = 8899563C1C47769F00EC7C34 /* Build configuration list for PBXProject "MyPingGuo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 889956381C47769F00EC7C34;
+			productRefGroup = 889956421C47769F00EC7C34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				889956401C47769F00EC7C34 /* MyPingGuo */,
+				8899565C1C47769F00EC7C34 /* MyPingGuoTests */,
+				889956671C47769F00EC7C34 /* MyPingGuoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8899563F1C47769F00EC7C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889956571C47769F00EC7C34 /* LaunchScreen.storyboard in Resources */,
+				889956541C47769F00EC7C34 /* Assets.xcassets in Resources */,
+				8899564F1C47769F00EC7C34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8899565B1C47769F00EC7C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889956661C47769F00EC7C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8899563D1C47769F00EC7C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8899564C1C47769F00EC7C34 /* ViewController.m in Sources */,
+				889956521C47769F00EC7C34 /* MyPingGuo.xcdatamodeld in Sources */,
+				889956491C47769F00EC7C34 /* AppDelegate.m in Sources */,
+				889956461C47769F00EC7C34 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889956591C47769F00EC7C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889956621C47769F00EC7C34 /* MyPingGuoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889956641C47769F00EC7C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8899566D1C47769F00EC7C34 /* MyPingGuoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8899565F1C47769F00EC7C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 889956401C47769F00EC7C34 /* MyPingGuo */;
+			targetProxy = 8899565E1C47769F00EC7C34 /* PBXContainerItemProxy */;
+		};
+		8899566A1C47769F00EC7C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 889956401C47769F00EC7C34 /* MyPingGuo */;
+			targetProxy = 889956691C47769F00EC7C34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8899564D1C47769F00EC7C34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8899564E1C47769F00EC7C34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		889956551C47769F00EC7C34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				889956561C47769F00EC7C34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8899566F1C47769F00EC7C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		889956701C47769F00EC7C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		889956721C47769F00EC7C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyPingGuo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maipguo.MyPingGuo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		889956731C47769F00EC7C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyPingGuo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maipguo.MyPingGuo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		889956751C47769F00EC7C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyPingGuoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maipguo.MyPingGuoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPingGuo.app/MyPingGuo";
+			};
+			name = Debug;
+		};
+		889956761C47769F00EC7C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyPingGuoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maipguo.MyPingGuoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPingGuo.app/MyPingGuo";
+			};
+			name = Release;
+		};
+		889956781C47769F00EC7C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyPingGuoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maipguo.MyPingGuoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyPingGuo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		889956791C47769F00EC7C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyPingGuoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maipguo.MyPingGuoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyPingGuo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8899563C1C47769F00EC7C34 /* Build configuration list for PBXProject "MyPingGuo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8899566F1C47769F00EC7C34 /* Debug */,
+				889956701C47769F00EC7C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889956711C47769F00EC7C34 /* Build configuration list for PBXNativeTarget "MyPingGuo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889956721C47769F00EC7C34 /* Debug */,
+				889956731C47769F00EC7C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		889956741C47769F00EC7C34 /* Build configuration list for PBXNativeTarget "MyPingGuoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889956751C47769F00EC7C34 /* Debug */,
+				889956761C47769F00EC7C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		889956771C47769F00EC7C34 /* Build configuration list for PBXNativeTarget "MyPingGuoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889956781C47769F00EC7C34 /* Debug */,
+				889956791C47769F00EC7C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		889956501C47769F00EC7C34 /* MyPingGuo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				889956511C47769F00EC7C34 /* MyPingGuo.xcdatamodel */,
+			);
+			currentVersion = 889956511C47769F00EC7C34 /* MyPingGuo.xcdatamodel */;
+			path = MyPingGuo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 889956391C47769F00EC7C34 /* Project object */;
+}
